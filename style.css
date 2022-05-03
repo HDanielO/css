@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* typography */
+
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    padding: 5%;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-weight: 900;
+    font-size:medium;
+    margin-bottom: 5px;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-weight: 500;
+}
+
+
+/* typography ends */
+
+
+main{
+    width: 60%;
+    height: auto;
+    margin: 10% auto;
+    border-radius: 20px;
+    background: #fff;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/* firstbox */
+
+.first-box{
+    width: 70%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+/* firstbox ends */
+
+
+/* secondbox */
+.second-box{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+    width: 80%;
+    margin: 4% auto;
+    background: hsl(225, 100%, 98%);
+    border: none;
+    border-radius: 10px;
+}
+
+.second-box-1{
+    display: flex;
+    align-items: center;
+}
+
+.second-box img{
+    width: 40px;
+    margin-right:15px ;
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+a:hover{
+    border-bottom: 1px solid hsl(245, 75%, 52%);
+}
+
+
+/* secondbox ends */
+
+/* button */
+
+.button{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-button{
+    background: hsl(224, 23%, 55%);
+    color: #fff;
+    margin: 2% auto;
+    border: none;
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px;
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-weight: 900;
+}
+
+.first-button:hover{
+    box-shadow: 0 0 10px rgba(109, 109, 109, 0.815);
+}
+
+.second-button{
+    background:#fff;
+    color: hsl(223, 47%, 23%);
+    margin: 2% auto;
+    border: none;
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px;
+    font-family: 'Red Hat Display',
+    sans-serif;
+    font-weight: 900;
+}
+
+.second-button:hover{
+    background: hsl(229, 81%, 86%);;
+}
+
+/* button ends */
+
+@media(min-width: 1000px){
+    main{
+        width: 30%;
+        margin: 5% auto;
+    }
+}
