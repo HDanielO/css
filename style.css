@@ -161,3 +161,7 @@ a:hover{
         margin: 5% auto;
     }
 }
+
+
+@media(max-width: 300px){
+width: 80%}
